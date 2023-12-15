@@ -1,0 +1,130 @@
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+    height:80px;
+}
+
+.navigation{
+    background-color:#EBECE9;
+}
+
+
+.logo{
+    width:23%;
+    padding:1%;
+    text-align: center;
+    
+}
+
+nav{
+    width:72%;
+    padding:1%; 
+}
+
+nav ul{
+    width:60%;
+    margin-left: auto
+}
+
+nav il{
+    font-family: 'Montserrat', sans-serif;
+    padding:3%;
+    color:#18272F;
+}
+
+.heroimg{
+    background-color:#DEAA97;
+    height:600px;
+    padding:50px
+}
+
+.Content H1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:56px;
+    font-weight:700;
+    color:#18272F;
+    width:541px;
+
+}
+
+.Content H4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:26px;
+    font-weight: 400;
+    color:#18272F;
+    width:541px;
+}
+
+.Content P{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color:#373F42;
+    width:541px;
+}
+
+.Content{
+    background-color:#EBECE9;
+    display:flex
+}
+
+.Content img{
+    height:600px;
+}
+
+.Content button{
+    background-color:#5C2029;
+    color:#EBECE9;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    transform:translateY(100%);
+    transition-duration:.5s;
+    border-style:solid;
+    border-color:#5C2029;
+    
+}
+
+.Content button:hover {
+    background-color: #EBECE9;
+    color: #5C2029;
+    border-style:solid;
+    border-color:#5C2029;
+}
+
+.Info{
+    padding-left:100px;
+    padding-right:100px
+}
+
+.fa-solid.fa-circle-arrow-down{
+    padding-left:10px;
+
+}
+
+footer{
+    background-color:#18272F;
+    color:#EBECE9;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    padding:1%;
+    height:60px
+   
+}
+
+footer ul{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.history{
+    display:inline-block
+}

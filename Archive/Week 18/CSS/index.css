@@ -1,0 +1,383 @@
+* { margin: 0; padding: 0; }
+
+/* Header Section */
+.inline-block {
+    display:inline-flex;
+    align-items:center;
+    vertical-align:top;
+    height:40px;
+}
+
+.navigation{
+    background-color:#EBECE9;
+    text-align: center;
+    padding-left:2.5%;
+    padding-right:2.5%;
+}
+
+
+.logo{
+    width:23%;
+    padding:1%; 
+}
+
+nav{
+    width:72%;
+    padding:1%;
+}
+
+nav ul{
+    width:100%;
+    margin-left: auto;
+    text-align:end;
+}
+
+nav il{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    padding-left:5%;
+    color:#18272F;
+}
+
+nav il:hover{
+    text-decoration:underline;
+}
+
+/* About Section */
+.heroimg{
+    background-color:#DEAA97;
+    height:600px;
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Content{
+    background-color:#EBECE9;
+    display:grid;
+    width:100%;
+    height:100%;
+    grid-template-columns:65.4% 34.6%;
+    grid-template-rows:100%;
+    grid-template-areas: 
+    'inf image';
+}
+
+.Info{
+    padding-top:10%;
+    padding-left:10%;
+    padding-right:10%;
+    width:80%;
+    height:80;
+    grid-area:'inf'
+}
+
+.Header1{
+    padding-bottom: 20px;
+}
+
+.Header4{
+    padding-bottom: 20px;
+    width:100%
+}
+
+.Content img{
+    width: 100%;
+    height:100%;
+    float:right;
+    grid-area:image;
+    
+    
+}
+
+.Content button{
+    background-color:#5C2029;
+    color:#EBECE9;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    transform:translateY(100%);
+    transition-duration:.5s;
+    border-style:solid;
+    border-color:#5C2029;
+    
+}
+
+.Content button:hover {
+    background-color: #EBECE9;
+    color: #5C2029;
+    border-style:solid;
+    border-color:#5C2029;
+}
+
+.fa-solid.fa-circle-arrow-down{
+    padding-left:10px;
+}
+
+/* My UX/UI Skills*/
+
+.mySkills{
+    background-color:#EBECE9;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.flexContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin: 15px;
+}
+
+.flexContainer>div{
+    background-color:rgba(152, 85, 41,0.75);
+    width:30%;
+    padding:010px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.imgSkl{
+    width:100%;
+}
+
+/* My Case Studies*/
+
+.myWork{
+    background-color:#EBECE9;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.firstImg{
+    grid-area: imgFst;
+}
+
+.firstImg img{
+    width:100%;
+    height:100%
+}
+
+.firstTxt{
+    grid-area: txtFst;
+    padding:6%;
+}
+
+.firstTxt div{
+    padding-bottom: 50px;
+}
+
+.secImg{
+    grid-area: imgSec;
+}
+
+.secImg img{
+    width:100%;
+    height:100%
+}
+.secTxt{
+    grid-area: txtSec;
+    padding:6%;
+}
+
+.secTxt div{
+        padding-bottom: 50px;
+    }
+
+
+.thiImg{
+    grid-area: imgThi;
+}
+
+.thiImg img{
+    width:100%;
+    height:100%
+}
+
+.thiTxt{
+    grid-area: txtThi;
+    padding:6%;
+}
+
+.thiTxt div{
+    padding-bottom: 50px;
+}
+
+.workGrid{
+    display:grid;
+    background-color: rgba(50, 52, 33,0.75);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1/3 1/3 1/3;
+    grid-template-areas: 
+    'imgFst txtFst'
+    'txtSec imgSec'
+    'imgThi txtThi';
+}
+
+.workGrid div{
+    text-align: center;
+}
+
+.myWork button{
+    background-color:#5C2029;
+    color:#EBECE9;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    transition-duration:.5s;
+    border-style:solid;
+    border-color:#5C2029;
+}
+
+.myWork button:hover {
+    background-color: #EBECE9;
+    color: #5C2029;
+    border-style:solid;
+    border-color:#5C2029;
+}
+
+
+.fa-solid{
+    padding-left:10px;
+}
+
+.myWork>button{
+    background-color: #EBECE9;
+    color:#373F42;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding:10px;
+    margin:20px;
+    border-style:solid;
+    border-color:#373F42;
+}
+
+.myWork>button:hover {
+    background-color: #373F42;
+    color: #EBECE9;
+    border-style:solid;
+    border-color:#373F42;
+}
+
+
+/* Footer */
+
+footer{
+    background-color:#18272F;
+    color:#EBECE9;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    padding:1%;
+    height:60px
+   
+}
+
+footer ul{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+
+
+/* typography*/
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:75px;
+    font-weight:700;
+    color:#18272F;
+    width:541px;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    font-weight: 700;
+    color:#18272F;
+    text-align: center;
+    padding:20px;
+    
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    color:#EBECE9;
+    text-align: center;
+    padding:10px;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:26px;
+    font-weight: 400;
+    color:#18272F;
+    width:541px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    color:#EBECE9;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Content p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color:#373F42;
+    width:100%;
+    padding-bottom: 10px;
+}
+
+p.light{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color:#EBECE9;
+    line-height: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .flexContainer{
+    display:flex;
+    flex-direction:column;
+    }
+    
+  .workGrid{
+    grid-template-rows: 1/5 1/5 1/5 1/5 1/5 1/5;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "imgFst"
+      "txtFst"
+      "imgSec"
+      "texSec"
+      "imgThi"
+      "txtThi"
+    ;
+  }
+}
