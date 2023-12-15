@@ -1,18 +1,63 @@
-.navigation{
-    background-color: red;
+
+.intro>.jumbotron{
+    background-image: url(/images/Case\ Study\ -\ Finalw.png);
+    margin: 0px;
+    height: 375px;
 }
 
-.title{
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+nav{
+    background-color: rgb(174, 129, 77,.75);
+    padding: 10px;
 }
 
-.description{
-display: flex;
-align-items: center;}
+.nav-item{
+    font-family: 'Josefin Sans', sans-serif;
 
-.jumbotron{
-    background-color: white;
+}
+
+.nav-link{
+    color: #18272F;;
+}
+
+
+
+.sectionI h1{
+    text-align: center;
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sectionI{
+    padding-bottom: 50px;
+}
+
+.sectionR h1{
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.sectionR{
+    padding-bottom: 50px;
+}
+
+.sectionH h1{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.sectionH{
+    background-color: rgb(174, 129, 77,.75);
+    padding: 0px;
+}
+
+.problemSt>.jumbotron{
+    background-color: rgb(232, 194, 144);
 }
 /* typography*/
 
@@ -31,6 +76,7 @@ h2{
     font-weight: 700;
     color:#18272F;
     text-align: start;
+    padding:10px;
 
     
 
@@ -39,10 +85,10 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
-    font-weight: 700;
-    color:#EBECE9;
-    text-align: center;
-    padding:10px;
+    font-weight: 400;
+    color:#18272F;
+    text-align: start;
+
 }
 
 h4{
@@ -57,7 +103,7 @@ h5{
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
     font-weight: 400;
-    color:#EBECE9;
+    color:#18272F;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -68,7 +114,7 @@ p{
     font-weight:400;
     color:#373F42;
     width:100%;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 p.light{
